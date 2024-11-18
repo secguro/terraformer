@@ -1,6 +1,8 @@
 module github.com/GoogleCloudPlatform/terraformer
 
-go 1.22
+go 1.22.0
+
+toolchain go1.22.1
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
@@ -310,7 +312,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/sourcegraph/jsonrpc2 v0.0.0-20210201082850-366fbb520750 // indirect
 	github.com/spf13/afero v1.2.2 // indirect
-	github.com/stretchr/testify v1.8.2 // indirect
+	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
@@ -384,6 +386,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/manicminer/hamilton-autorest v0.2.0 // indirect
+	github.com/mongodb-forks/digest v1.1.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	golang.org/x/tools/cmd/cover v0.1.0-deprecated // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230629202037-9506855d4529 // indirect
@@ -419,6 +422,7 @@ require (
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tat v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tcaplusdb v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc v1.0.392
+	go.mongodb.org/atlas-sdk/v20241023001 v20241023001.1.0
 )
 
 replace gopkg.in/jarcoal/httpmock.v1 => github.com/jarcoal/httpmock v1.0.5
